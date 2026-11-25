@@ -67,6 +67,8 @@ int main(void) {
     // Connection success message
     printf("ATM connected!\n");
 
+    // Establish secure channel here
+
     while (1) {
         memset(buffer, 0, BUFFER_SIZE);
 
